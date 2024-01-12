@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="assets/svg/x.svg">
+    <title>SNAKE2077</title>
+</head>
+
+<body>
+    <div class="fixed-head">
+        <div>SNAKE 2077</div>
+    </div>
+    <audio src="" id="sfx"></audio>
+    <div class="container">
+        <div class="leftSide">
+            <div class="score details">
+                0
+            </div>
+            <div class="HighScore details">
+                <i class="fa fa-star"></i> HIGH SCORE: <span>0</span>
+            </div>
+            <div class="author">
+                MADE WITH <i class="fa fa-heart"></i> BY <a href="https://github.com/Aliexperes/">EXPERES</a>
+            </div>
+        </div>
+        <div class="playground"></div>
+        <div class="rightSide">
+            <button class="difficulty active" id="difficulty-2">EASY</button>
+            <button class="difficulty" id="difficulty-4">MEDIUM</button>
+            <button class="difficulty" id="difficulty-6">HARD</button>
+            <button class="size" id="size-12">12X12</button>
+            <button class="size" id="size-16">16X16</button>
+            <button class="size" id="size-20">20X20</button>
+            <div class="play">
+                <object data="assets/svg/blockloader.svg" type="image/svg+xml" id="loader">
+                    <img src="assets/svg/blockloader.svg" />
+                </object>
+                <i class="fa fa-play fa-5x"></i>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
